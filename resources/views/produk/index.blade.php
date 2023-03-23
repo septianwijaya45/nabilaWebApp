@@ -66,11 +66,11 @@
                 {data: 'kode_produk'},
                 {data: 'nama_produk'},
                 {data: 'nama_kategori'},
-                {data: 'jenis jawaban'},
-                {data: 'poin sangat buruk'},
-                {data: 'poin kurang baik'},
-                {data: 'poin baik'},
-                {data: 'poin sangat baik'},
+                {data: 'merk'},
+                {data: 'harga_beli'},
+                {data: 'diskon'},
+                {data: 'harga_jual'},
+                {data: 'stok'},
                 {data: 'aksi', searchable: false, sortable: false},
             ]
         });
