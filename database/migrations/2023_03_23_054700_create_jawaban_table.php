@@ -16,15 +16,15 @@ class CreateJawabanTable extends Migration
         Schema::create('jawaban', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('member_id');
-            $table->integer('soal1');
-            $table->integer('soal2');
-            $table->integer('soal3');
-            $table->integer('soal4');
-            $table->integer('soal5');
-            $table->integer('soal6');
-            $table->integer('soal7');
-            $table->integer('soal8');
-            $table->integer('soal9');
+            $table->integer('soal1')->nullable();
+            $table->integer('soal2')->nullable();
+            $table->integer('soal3')->nullable();
+            $table->integer('soal4')->nullable();
+            $table->integer('soal5')->nullable();
+            $table->integer('soal6')->nullable();
+            $table->integer('soal7')->nullable();
+            $table->integer('soal8')->nullable();
+            $table->integer('soal9')->nullable();
             $table->timestamps();
         });
     }
