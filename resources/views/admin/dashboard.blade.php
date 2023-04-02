@@ -113,10 +113,9 @@ $(function() {
     var salesChart = new Chart(salesChartCanvas);
 
     var salesChartData = {
-        labels: {{ json_encode($data_tanggal) }},
+        labels: ['Pertanyaan 1', 'Pertanyaan 2', 'Pertanyaan 3', 'Pertanyaan 4', 'Pertanyaan 5', 'Pertanyaan 6', 'Pertanyaan 7', 'Pertanyaan 8', 'Pertanyaan 9'],
         datasets: [
             {
-                label: 'Pendapatan',
                 fillColor           : 'rgba(60,141,188,0.9)',
                 strokeColor         : 'rgba(60,141,188,0.8)',
                 pointColor          : '#3b8bba',
@@ -129,6 +128,7 @@ $(function() {
     };
 
     var salesChartOptions = {
+        maintainAspectRatio : false,
         pointDot : false,
         responsive : true
     };
